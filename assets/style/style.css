@@ -1,0 +1,105 @@
+/* Font Colors
+  #d6edf3 background light-blue
+  #062c46 font dark blue
+  #75a2b0 font light green
+  #2b6c7e green icon
+*/
+
+@font-face {
+  font-family: "Spectral-ExtraBold";
+  src: url("../fonts/Spectral-ExtraBold.ttf.woff");
+}
+
+@font-face {
+  font-family: "Made";
+  src: url("../fonts/MADETommySoft-Black.ttf.woff");
+}
+
+body { 
+  background: url(../images/bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg {
+  display: block;
+  filter: blur(35px);
+  -webkit-filter: blur(35px);
+  z-index: 1;
+}
+
+.bg-gray{
+  background-color: #efefef;
+}
+
+.text-cont {
+  font: #062c46 !important;
+}
+
+.title {
+  font-family: "Spectral-ExtraBold";
+}
+
+.title2{
+  font-family: "Made";
+}
+
+.btn-cont {
+  background-color: #062c46;
+  color: #fff;
+  border-radius: 9px;
+}
+
+.text-shadow{
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.9); 
+}
+
+footer{
+  background-color: #d6edf3;
+}
+
+.eupopup-container {
+  background-color: rgba(25,25,25,.9);
+  color: #efefef;
+  padding: 5px 20px;
+  font-size: 12px;
+  line-height: 1.2em;
+  text-align: center;
+  z-index: 101;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.eupopup-head{
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px;
+}
+.eupopup-button{
+  background-color: #1C2F71;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 22px;
+  margin: 8px;
+  font-size: 15px;
+}
+.eupopup-button:hover{
+  background-color: #00298f;
+  cursor: pointer;
+}
+.eupopup-closebutton{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1;
+  color: #a2a2a2;
+  position: absolute;
+  font-family: helvetica,arial,verdana,sans-serif;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+}
